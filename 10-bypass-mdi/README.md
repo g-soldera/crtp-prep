@@ -39,6 +39,16 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-96222** — *AD FS spoofing (certificate validation)*: CVSS 7.4 — identidade federada.
+- **CVE-2026-108131** — *AD FS spoofing*: CVSS 7.5.
+- **CVE-2026-25177 / 27912** — *KerberLoss / ResetNightmare*: Os dois geram identidade falsa — é exatamente o que o MDI tenta detectar por anomalia.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

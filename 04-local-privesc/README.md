@@ -39,6 +39,17 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-70229** — *AD DS RCE*: RCE sem autenticação — a partir de máquina membro, superfície adicional de Local PrivEsc.
+- **CVE-2026-96913** — *Windows Kernel EoP*: Heap overflow no kernel — categoria clássica de Local PrivEsc.
+- **CVE-2026-96934** — *Use-after-free*: CVSS 9.8 — EoP via UAF.
+- **CVE-2026-69525** — *RDP RCE*: CVSS 9.8, set/2026 — RDP como vetor de escala lateral/local.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

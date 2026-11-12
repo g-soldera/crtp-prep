@@ -11,6 +11,7 @@ Aprendizado guiado do zero, com lab local reproduzindo o adlab real.
 2. **`EMENTA.md`** — a ementa oficial mapeada para as pastas deste repo
 3. **`PLANO.md`** — cada objetivo da ementa ligado a uma prática no lab
 4. **`lab/topologia.md`** — topologia e setup das VMs
+5. **`refs/vulnerabilidades-2026.md`** — CVEs recentes (Dark October e outros) ligadas aos módulos
 
 ## Fluxo de estudo
 
@@ -51,6 +52,10 @@ Duas camadas de guardrail, montadas incrementalmente:
 
 - **Vulnerável** (I–VIII) — criada para ser explorada
 - **Defesa** (IX–XIII) — criada para ser contornada
+
+> **CVE ≠ técnica CRTP.** O corpo da prova é *misconfiguration* (ACL fraca,
+> delegation, Kerberoast) — funciona em domínio atualizado. CVEs são contexto
+> de ameaça: ver [`refs/vulnerabilidades-2026.md`](refs/vulnerabilidades-2026.md).
 
 ## Progresso
 

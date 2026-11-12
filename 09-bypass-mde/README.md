@@ -40,6 +40,15 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-96951** — *Mark of the Web bypass (zero-day)*: Zero-day ativo — lógica de "o que o EDR confia" em binários externos.
+- **CVE-2026-108398** — *WDAC bypass*: Bypass de controle de aplicativos — mesma fronteira de confiança do MDE.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

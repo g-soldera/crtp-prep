@@ -42,6 +42,15 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-122164** — *Kerberos EoP (weak authentication)*: Persistência via autenticação Kerberos fraca — complementa Golden/Silver ticket.
+- **CVE-2026-65777** — *AD Security Feature Bypass*: Bypass de controle de segurança do AD — o adversário que persiste quer exatamente isso.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

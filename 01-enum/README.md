@@ -42,6 +42,19 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-25177** — *KerberLoss*: Unicode invisível em `servicePrincipalName` bypassa a checagem de unicidade de SPN. Enumeração de SPNs passa a ser também caça a colisões.
+- **CVE-2026-70229** — *AD DS RCE (sem autenticação)*: Pacote crafted sobre a rede, sem credenciais — a enumeração já é superfície de ataque. *Exploitation More Likely*.
+- **CVE-2026-49179** — *AD DS command injection*: Injection via rede (SMB) contra serviços do AD DS.
+- **CVE-2026-69546** — *AD DS use-after-free RCE*: Outra RCE de AD DS, patchada em 09/2026.
+- **CVE-2026-33826** — *Windows AD RCE*: *Improper input validation* em rede adjacente — relevante para quem enumera a partir de dentro.
+- **CVE-2026-57976** — *AD DS DoS*: Null pointer dereference — lembrete de que enumeração agressiva pode derrubar serviços.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

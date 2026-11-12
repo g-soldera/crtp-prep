@@ -174,6 +174,38 @@ Semana 7  →  09–13 Defesas e bypass (trials MDE/MDI)
 
 ---
 
+## Vulnerabilidades recentes (2026)
+
+Documento completo: **[`refs/vulnerabilidades-2026.md`](refs/vulnerabilidades-2026.md)**
+
+> ⚠️ **CVE ≠ técnica CRTP.** A prova cobra *misconfigurations* — ACL fraca,
+> unconstrained/constrained delegation, Kerberoast, DCSync, AdminSDHolder.
+> Isso funciona em domínio **totalmente atualizado**. CVEs exigem versão
+> vulnerável e entram como **contexto de ameaça**, não como material de prova.
+
+Prioridade para acompanhar durante o estudo:
+
+| Prioridade | Destaque | CVE | Módulo |
+|---|---|---|---|
+| 🔴 1 | **ResetNightmare** — low-priv → Domain Admin instantâneo | `CVE-2026-27912` | `05` |
+| 🔴 1 | **KerberLoss** — SPN invisível por Unicode bypassa unicidade | `CVE-2026-25177` | `01`, `05` |
+| 🔴 1 | Kerberos EoP *weak authentication* (o mais novo, 11/2026) | `CVE-2026-122164` | `05` |
+| 🔴 1 | **AD DS RCE sem autenticação** — "Exploitation More Likely" | `CVE-2026-70229` | `01`, `04` |
+| 🟠 2 | **AD CS RCE** (UAF) | `CVE-2026-62818` | `08` |
+| 🟠 2 | **AD CS EoP** | `CVE-2026-54121` | `08` |
+| 🟠 2 | SQL Server deserialization RCE — links cross-domain | `CVE-2026-65674` | `07` |
+| 🟡 3 | Zero-day ativo **Mark of the Web** bypass | `CVE-2026-96951` | `02`, `03` |
+| 🟡 3 | **WDAC bypass** via assembly .NET | `CVE-2026-108398` | `03`, `11` |
+| 🟡 3 | AD FS spoofing (cert validation) | `CVE-2026-96222` / `108131` | `10`, `11` |
+
+**"Dark October"** = Patch Tuesday 13/10/2026 — ~1410 CVEs (recorde histórico),
+~70 Critical, 1 zero-day ativo. Ler a seção *Contexto* do documento acima.
+
+**Leitura obrigatória:** slides Black Hat USA 2026 — *"Identity Crisis"*
+(KerberLoss + ResetNightmare), Semperis.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

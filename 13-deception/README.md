@@ -40,6 +40,15 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-27912** — *ResetNightmare*: Objetos *decoy* com UPN/SamAccountName confusos podem **ser a isca** — e também podem ser acidentalmente vítimas da colisão.
+- **CVE-2026-25177** — *KerberLoss*: SPNs invisíveis são tanto arma quanto possível armadilha/ruído num ambiente com decoys.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

@@ -42,6 +42,18 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-27912** — *ResetNightmare*: 🔴 **O mais importante.** UPN igual ao `SamAccountName` de outra conta → usuário de baixo privilégio vira **Domain Admin instantâneo**. Black Hat USA 2026.
+- **CVE-2026-25177** — *KerberLoss*: 🔴 SPN invisível por Unicode → bypass de unicidade, downgrade Kerberos→NTLM, impersonation. Sem permissão no alvo.
+- **CVE-2026-122164** — *Kerberos EoP (weak authentication)*: 🔴 Novembro 2026 — o CVE de Kerberos mais recente.
+- **CVE-2026-62766 / 62752 / 62754 / 62773** — *Lote Kerberos EoP*: Double free no Kerberos, 4 CVEs de ago/2026.
+- **CVE-2026-20833** — *KDC RC4 downgrade*: Rebaixamento criptográfico no KDC — relevant para contas de serviço, o alvo do Kerberoast.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

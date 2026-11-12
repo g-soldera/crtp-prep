@@ -37,6 +37,17 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-108398** — *WDAC bypass*: Por que o WDAC sozinho não basta.
+- **CVE-2026-96222 / 108131** — *AD FS spoofing*: Falhas de validação de certificado.
+- **CVE-2026-65777** — *AD Security Feature Bypass*: Controles de segurança do AD podem ser contornados — daí a defesa em profundidade.
+- **CVE-2026-27912** — *ResetNightmare*: Justifica *Tiered Administration* e *Protected Users*: um único objeto mal escrito derruba o domínio.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

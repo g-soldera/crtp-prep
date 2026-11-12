@@ -39,6 +39,14 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-65674** — *SQL Server deserialization RCE*: 🔴 ZDI apontou como **o mais explorável do mês** (out/2026). Interliga direto com o objetivo "SQL database links" da ementa.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

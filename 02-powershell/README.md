@@ -39,6 +39,14 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-96951** — *Mark of the Web bypass (zero-day)*: Ativo em exploração desde out/2026. Afeta como scripts baixados são tratados — interliga com o uso de PowerShell ofensivo.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

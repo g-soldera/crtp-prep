@@ -84,3 +84,11 @@ Invoke-Command -ComputerName 192.168.32.10 -Credential $cred -ScriptBlock { host
 ## Status
 
 Ver `PLANO.md` para o mapa ementa → prática e o checklist de setup.
+
+## Vulnerabilidades recentes
+
+`refs/vulnerabilidades-2026.md` — CVEs de 2026 (Dark October, ResetNightmare,
+KerberLoss, AD DS/AD CS RCE) ligadas a cada módulo.
+
+**Regra:** a prova cobra *misconfigurations*, não CVE. CVEs são contexto de
+ameaça. Não substituir um pelo outro.

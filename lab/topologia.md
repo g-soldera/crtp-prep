@@ -22,14 +22,18 @@ Planejado (criar no módulo 07 — Cross Trust):
 
 | VM | Hostname AD | Papel | IP | DNS | Status |
 |---|---|---|---|---|---|
-| DC01 | `WIN-K7NHQG47OQ6` ⚠️ | Primary DC (role 5) | 192.168.32.10 | `192.168.32.10`, `127.0.0.1` | ✅ promovido |
+| DC01 | `DC01` | Primary DC (role 5) | 192.168.32.10 | `192.168.32.10`, `127.0.0.1` | ✅ promovido |
 | WS01 | `WS01` | Member Server (role 3) | 192.168.32.20 | `192.168.32.10` | ✅ join OK |
 
 - Domínio: `lab.local` / NetBIOS `LAB` / Forest+Domain Mode: `WinThreshold`
 - Roles instaladas no DC: **AD-Domain-Services**, **DNS**, **GPMC**, **RSAT**
 - Secure channel do WS01: `True` · `whoami` → `lab\administrator`
 
-> ⚠️ **Pendente:** renomear o DC de `WIN-K7NHQG47OQ6` para `DC01`.
+> ✅ DC renomeado para `DC01` (confirmado via `hostname` em 2026-11-12).
+>
+> ⚠️ **WS01 não tem o módulo AD do RSAT** — `Get-ADDomain`/`Get-ADUser` não existem
+> lá. Enumeração no WS01 usa ferramentas built-in (`nltest`, `net group /domain`,
+> `dsquery`, LDAP puro). Instalar RSAT só se o módulo exigir.
 
 ## Setup — checklist
 
@@ -42,8 +46,8 @@ Planejado (criar no módulo 07 — Cross Trust):
 - [x] Instalar role AD DS + DNS no DC01
 - [x] Promover DC01 → criar domínio `lab.local`
 - [x] Join do WS01 em `lab.local` + rename para `WS01`
-- [ ] Renomear DC → `DC01`
-- [ ] Snapshot `BASE` (lab limpo) ⬅️ **próximo passo**
+- [x] Renomear DC → `DC01`
+- [x] Snapshot `BASE` (lab limpo)
 - [ ] Criar usuários/grupos vulneráveis (a cada módulo, conforme o fluxo)
 
 ### Por módulo (criar quando chegar)

@@ -37,6 +37,16 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-27912** — *ResetNightmare*: Detecção: Security Event **4738/4742** (conta alterada) e **5136** (objeto modificado) com UPN/SPN não-ASCII.
+- **CVE-2026-25177** — *KerberLoss*: Detecção: SACL auditando modificação de `servicePrincipalName` com caracteres invisíveis.
+- **CVE-2026-70229** — *AD DS RCE*: Detecção: tráfego anômalo de pacotes crafted para os serviços do AD DS.
+
+---
+
 ## Glossário
 
 | Termo | Definição |

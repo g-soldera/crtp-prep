@@ -38,6 +38,15 @@ O aluno explica com as próprias palavras **antes** de o conteúdo ser gravado a
 
 ---
 
+## Vulnerabilidades relacionadas (2026)
+
+> Detalhes e fontes em [`../refs/vulnerabilidades-2026.md`](../refs/vulnerabilidades-2026.md)
+
+- **CVE-2026-108398** — *WDAC bypass via assembly .NET*: Assembly .NET registrado e carregado por processo protegido contorna o WDAC. Divulgado antes do patch — exatamente a fronteira entre "modificar tool" e "bypass de controle".
+- **CVE-2026-96951** — *Mark of the Web bypass (zero-day)*: Zero-day ativo em out/2026, ligado a binários e scripts externos.
+
+---
+
 ## Glossário
 
 | Termo | Definição |
